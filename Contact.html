@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rijon Sikder Alif" />
+    <meta
+      name="description"
+      content="Contact information for Rijon's Food Corner"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/icon" />
+    <title>Contact Us - RFC</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="/">Home</a> | <a href="/#aboutRFC">About RFC</a> |
+      <a href="/#menu">Our Menu</a> |
+      <a href="Hours.html" target="_blank">Store Hours</a> |
+    </nav>
+    <figure>
+      <img
+        src="img/melissa-walker-horn-NkwNp3ho-Qw-unsplash.jpg"
+        alt="Perfect Snacks"
+        width="300"
+        title="Perfect Snacks"
+        loading="lazy"
+      />
+      <figcaption>Perfect Snacks</figcaption>
+    </figure>
+    <hr />
+    <main>
+      <!--Contact form-->
+      <section>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/post" method="post">
+          <fieldset>
+            <legend>Send us Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                autocapitalize="words"
+                autofocus="on"
+                required="on"
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@gail.com"
+              />
+            </p>
+            <p>
+              <label for="message"> Your Message: </label><br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message here"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">reset</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Our Location</h2>
+        <address>
+          Nakhal para,Behind Prime Minister <br>Office Farmgate, Dhaka-1200
+          <br /><br />
+          Phone: <a href="tel:+8801810408944">01810408944</a><br />
+          Email:
+          <a href="mailto:rijonsikder43@gmail.com">rijonsikder43@gmail.com</a>
+        </address>
+      </section>
+      <br>
+      <a href="#">Back to Top</a>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; Rijon's Food Corner</p>
+    </footer>
+  </body>
+</html>
